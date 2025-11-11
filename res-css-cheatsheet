@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Q6 - Responsive CSS Cheat Sheet</title>
+<style>
+body { font-family: Arial; background: #f4f6f8; margin: 0; padding: 20px; }
+.grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+.box {
+  background: white; padding: 20px; border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.box:hover { transform: scale(1.05); background: #eaf2ff; }
+h3 { color: #333; }
+</style>
+</head>
+<body>
+<h1>Responsive CSS Cheat Sheet</h1>
+<div class="grid">
+  <div class="box"><h3>Filters</h3><p>Use blur(), grayscale(), sepia(), etc.</p></div>
+  <div class="box"><h3>Media Queries</h3><p>@media (max-width: 600px)</p></div>
+  <div class="box"><h3>Responsive Design</h3><p>Flexible layouts using flexbox or grid.</p></div>
+  <div class="box"><h3>Typography</h3><p>Use relative units like em, rem, and vw.</p></div>
+</div>
+</body>
+</html>
