@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Paris</title>
+<style>
+  body { margin: 0; font-family: Arial; color: white; }
+  header, footer {
+    background: #222;
+    text-align: center;
+    padding: 1rem;
+  }
+  section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .intro {
+    background-image: url('https://picsum.photos/id/1011/1200/600');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .culture {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+  }
+  .landmarks {
+    background: radial-gradient(circle, #ff9a9e, #fad0c4);
+    background-attachment: fixed;
+  }
+  .food {
+    background: #333;
+  }
+</style>
+</head>
+<body>
+  <header><h1>Discover Paris</h1></header>
+
+  <section class="intro"><h2>The City of Lights</h2></section>
+  <section class="culture"><h2>Rich Culture</h2><p>Paris is known for its art and history.</p></section>
+  <section class="landmarks"><h2>Famous Landmarks</h2><p>Eiffel Tower, Louvre, and Notre Dame!</p></section>
+  <section class="food"><h2>French Cuisine</h2><p>Delicious pastries and fine dining everywhere!</p></section>
+
+  <footer>© 2025 City Guide</footer>
+</body>
+</html>
