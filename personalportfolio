@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Fixed Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #1f6feb;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+
+    main {
+      margin-top: 80px;
+      flex: 1;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    main img {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>My Portfolio</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Hello, I'm Aakarsh Saxena</h1>
+    <p>A passionate B.Tech CSE student learning to build amazing web experiences!</p>
+    <img src="https://picsum.photos/150" alt="Profile">
+  </main>
+
+  <footer>© 2025 Aakarsh Saxena | All rights reserved</footer>
+</body>
+</html>
