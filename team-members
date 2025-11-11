@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Members</title>
+<style>
+  body { font-family: Arial; background: #f7f9fc; margin: 0; }
+  .team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+  }
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .card:hover { transform: scale(1.05); }
+  .lead {
+    background: #e3f2fd;
+    border: 2px solid #2196f3;
+  }
+  @media (max-width:600px){
+    .team { flex-direction: column; align-items: center; }
+  }
+</style>
+</head>
+<body>
+  <div class="team">
+    <div class="card lead">
+      <h3>Ravi Sharma</h3>
+      <h4>Team Lead</h4>
+      <p>Guides the team and ensures timely project completion.</p>
+    </div>
+    <div class="card">
+      <h3>Asha Singh</h3>
+      <h4>Designer</h4>
+      <p>Creates beautiful and functional designs for users.</p>
+    </div>
+    <div class="card">
+      <h3>Mohit Verma</h3>
+      <h4>Developer</h4>
+      <p>Builds and maintains the web applications.</p>
+    </div>
+  </div>
+</body>
+</html>
