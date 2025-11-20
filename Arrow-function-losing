@@ -1,0 +1,10 @@
+// userThis.js
+
+const user = {
+  name: "Aakarsh",
+  showName: () => {
+    console.log(this.name); // ❌ undefined
+  }
+};
+
+user.showName(); // undefined
